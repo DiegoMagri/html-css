@@ -1,3 +1,5 @@
 @charset "UTF-8";
 
 /* deitado */
+
+body{background-image: url(../imagens/landscape.jpg); background-position: left bottom;}
