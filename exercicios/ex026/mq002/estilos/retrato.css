@@ -1,4 +1,4 @@
 @charset "UTF-8";
 /* de pé */
 
-body{background-image: url(../imagens/portrait.jpg);}
+body{background-image: url(../imagens/portrait.jpg); background-position: center bottom;}
