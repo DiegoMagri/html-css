@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    outline: 0px;
+}
+
+.logo{
+   display: block;
+   margin: 0 auto;
+   margin-top: 130px;
+}
+
+.pesquisa{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #dfe1e5;
+    border-radius: 50px;
+    padding: 17px;
+    width: 582px;
+    height: 46px;
+    margin-top: 30px;
+}
+
+.pesquisa:hover{
+    border: 2px solid #dfe1e5;
+    box-shadow: 2px 2px 15px #8c8d8f38;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 0px 16px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin: 21px 4px;
+    cursor: pointer;
+    border: 1px solid #f8f9fa;
+}
+
+button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+.menu{
+    display: flex;
+    justify-content: end;
+}
+
+.menu > a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
